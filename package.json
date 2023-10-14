@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Nuka noda",
+  "scripts": {
+    "test": "echo 'cześć'",
+    "addTwoNumbers": "node addNumbers",
+    "addTwoNumbers1010": "node addNumbers 10 10",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "asia",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
